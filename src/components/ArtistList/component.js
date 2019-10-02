@@ -18,6 +18,7 @@ const ArtistList = ({ artists, fetchArtistSongs, token, updateHeaderTitle }) => 
             <div>
               <div className='artist-image'>
                 <img src={artist.images[0] ? artist.images[0].url : ''} />
+                <p>Daily play-list of {artist.name}</p>
               </div>
               <div className='artist-details'>
                 <p>{ artist.name }</p>

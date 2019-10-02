@@ -22,7 +22,7 @@ h3 {
   }
   40%,
   80% {
-    transform: rotate(10deg)
+    transform: rotate(20deg)
   }
 }
 
@@ -54,7 +54,7 @@ body {
   top: 10px;
   left: 10px;
   bottom: 10px;
-  width: 180px;
+  width: 230px;
   overflow-y: auto;
 }
 
